@@ -1,0 +1,22 @@
+{
+  "name": "fstpgm",
+  "version": "1.0.0",
+  "description": "This is my first pgm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anishpdm/NodePgm.git"
+  },
+  "author": "Anish S Nair <anish.vilayil.s@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anishpdm/NodePgm/issues"
+  },
+  "homepage": "https://github.com/anishpdm/NodePgm#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
