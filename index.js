@@ -4,12 +4,12 @@ var http = require('http'),
 
 var app = express();
 app.get('/anish', function(req,res){
+	res.writeHead(200,{'Content-Type': 'text/plain'});
 
-	// res.end(os.release());
+	res.end(os.release());
 
-	console.log(os.uptime());
 });
 
 
-http.createServer(app).listen(3000);
+http.createServer(app).listen(3000, 'localhost');
 
